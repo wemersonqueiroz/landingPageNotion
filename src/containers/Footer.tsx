@@ -2,14 +2,14 @@ import React from "react"
 
 function Footer() {
   return (
-    <div className="flex flex-col mt-16">
+    <div className="flex flex-col mt-16 w-full">
       <div className="flex flex-col md:flex-row">
         <img
           src="./assets/macbookManage.png  "
-          className="max-w-md object-scale-down mx-auto mt-12 drop-shadow-md"
+          className="max-w-md object-scale-down lg:ml-48 ml-8 md:ml-12 mt-12 drop-shadow-md"
           alt=""
         />
-        <div className="mx-auto mt-12 w-80">
+        <div className="mx-auto mt-12 w-80 md:w-full ">
           <p className="font-bold text-2xl">Manage your business</p>
           <ul className="font-thin mt-8">
             <li>• Business Overview & Brain dump </li>
@@ -20,13 +20,13 @@ function Footer() {
               research)
             </li>
           </ul>
-          <button className="ml-8 mt-8 font-bold font-serif text-white bg-orange-500 px-4 text-sm py-2 rounded">
+          <button className="md:ml-8 mt-8 font-bold font-serif text-white bg-orange-500 px-4 text-sm py-2 rounded ">
             Get the Template
           </button>
         </div>
       </div>
       <div className="my-16 flex flex-col md:flex-row">
-        <div className="mx-auto mt-12 w-80">
+        <div className="ml-72 mt-12 w-80">
           <p className="font-bold text-2xl">Video Tutorial Included</p>
           <p className="font-thin mt-8">
             This Notion Template is beginner-friendly, and I included a few
@@ -36,9 +36,9 @@ function Footer() {
         </div>
         <img
           src="./assets/ipad.png"
-          className="max-w-sm object-scale-down mx-auto mt-12"
+          className="max-w-xs object-scale-down mx-auto mt-12"
         />
-        <button className="w-fit ml-24 mt-8 font-bold font-serif text-white bg-orange-500 px-4 text-sm py-2 rounded md:hidden">
+        <button className="w-fit mx-auto mt-8 font-bold font-serif text-white bg-orange-500 px-4 text-sm py-2 rounded md:hidden">
           Get the Template
         </button>
       </div>
