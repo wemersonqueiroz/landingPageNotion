@@ -2,7 +2,7 @@ import React from "react"
 
 function Hero() {
   return (
-    <div className="flex flex-col md:flex-row relative mt-16 w-full px-9 lg:px-24 ">
+    <div className="flex flex-col md:flex-row relative mt-16 w-full px-9 lg:px-24 mx-auto ">
       <div className="w-screen md:w-full">
         <h1 className="font-bold text-2xl lg:text-5xl md:text-4xl w-48 md:w-80 lg:w-full ml-8 mt-4">
           Get organized in your life and business

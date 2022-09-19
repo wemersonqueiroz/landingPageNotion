@@ -3,14 +3,14 @@ import React from "react"
 function Footer() {
   return (
     <div className="flex flex-col mt-16 w-full">
-      <div className="flex flex-col md:flex-row">
+      <div className="flex flex-col md:flex-row mx-auto">
         <img
           src="./assets/macbookManage.png  "
-          className="max-w-md object-scale-down lg:ml-48 ml-8 md:ml-12 mt-12 drop-shadow-md"
+          className="max-w-md object-scale-down  ml-8 md:ml-12 mt-12 drop-shadow-md"
           alt=""
         />
         <div className="mx-auto mt-12 w-80 md:w-full ">
-          <p className="font-bold text-2xl">Manage your business</p>
+          <p className="font-bold text-3xl">Manage your business</p>
           <ul className="font-thin mt-8">
             <li>• Business Overview & Brain dump </li>
             <li>• Products (ideas, pricing) & Branding </li>
@@ -25,9 +25,9 @@ function Footer() {
           </button>
         </div>
       </div>
-      <div className="my-16 flex flex-col md:flex-row">
-        <div className="ml-72 mt-12 w-80">
-          <p className="font-bold text-2xl">Video Tutorial Included</p>
+      <div className="my-16 flex flex-col md:flex-row justify-between mx-auto">
+        <div className=" mt-12 max-w-sm">
+          <p className="font-bold text-3xl w-full">Video Tutorial Included</p>
           <p className="font-thin mt-8">
             This Notion Template is beginner-friendly, and I included a few
             tutorials inside to guide you on how to use it. If you have any

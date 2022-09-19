@@ -3,7 +3,7 @@ import React from "react"
 function Testimonial() {
   return (
     <>
-      <p className="mx-auto mt-16 ml-48 text-xl font-bold">Testimonials</p>
+      <p className="mx-auto mt-16 ml-48 text-3xl font-bold">Testimonials</p>
       <div className="ml-40 px-8 w-[60%] relative flex flex-row mt-8">
         <div className="">
           <img
