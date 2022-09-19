@@ -16,7 +16,7 @@ function Features() {
         <div className="w-60 text-center justify-center mx-auto flex flex-col h-40">
           <img src="./assets/clock3D.png" className="w-32 mx-auto" alt="" />
           <p className="font-thin text-sm">
-            Plan ahgead, create more time, space, and energy using a digital
+            Plan ahead, create more time, space, and energy using a digital
             planner.
           </p>
         </div>

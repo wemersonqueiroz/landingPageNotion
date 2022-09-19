@@ -3,14 +3,12 @@ import React from "react"
 function Testimonial() {
   return (
     <>
-      <p className="mx-auto mt-16 ml-48 text-3xl font-bold">Testimonials</p>
-      <div className="ml-40 px-8 w-[60%] relative flex flex-row mt-8">
+      <p className="mx-auto mt-16 text-3xl font-bold text-center">
+        Testimonials
+      </p>
+      <div className="px-8 max-w-sm relative flex flex-col mt-8 mx-auto">
         <div className="">
-          <img
-            src="./assets/testimonial.png"
-            className="absolute -left-10"
-            alt=""
-          />
+          <img src="./assets/testimonial.png" className="" alt="" />
         </div>
         <div>
           <p className="font-bold text-sm">Rachel Gibson</p>

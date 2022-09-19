@@ -2,14 +2,14 @@ import React from "react"
 
 function Footer() {
   return (
-    <div className="flex flex-col mt-16 w-full">
-      <div className="flex flex-col md:flex-row mx-auto">
+    <div className="flex flex-col mt-16">
+      <div className="flex flex-col md:flex-row">
         <img
           src="./assets/macbookManage.png  "
           className="max-w-md object-scale-down  ml-8 md:ml-12 mt-12 drop-shadow-md"
           alt=""
         />
-        <div className="mx-auto mt-12 w-80 md:w-full ">
+        <div className="mx-auto mt-12 max-w-sm ">
           <p className="font-bold text-3xl">Manage your business</p>
           <ul className="font-thin mt-8">
             <li>• Business Overview & Brain dump </li>
