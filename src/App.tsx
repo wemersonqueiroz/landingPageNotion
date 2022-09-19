@@ -1,6 +1,8 @@
 import Features from "./containers/Features"
+import Footer from "./containers/Footer"
 import Hero from "./containers/Hero"
 import Main from "./containers/Main"
+import Testimonial from "./containers/Testimonial"
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <div className="">
         <Main />
         <Features />
+        <Testimonial />
+        <Footer />
       </div>
     </div>
   )

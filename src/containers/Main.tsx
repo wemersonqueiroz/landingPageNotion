@@ -20,7 +20,7 @@ function Main() {
             alt=""
           />
           <img
-            src="./assets/calendar3D.png"
+            src="./assets/calendar.png"
             alt=""
             className="absolute -bottom-16 left-0"
           />

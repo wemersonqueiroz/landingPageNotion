@@ -1,7 +1,4 @@
 import React from "react"
-import calendar3D from "../../public/assets/calendar3D.png"
-import clock3D from "../../public/assets/clock3D.png"
-import passport3D from "../../public/assets/passport3D.png"
 
 function Features() {
   return (
@@ -31,7 +28,7 @@ function Features() {
           </p>
         </div>
       </div>
-      <div className=" flex justify-center mt-12 mx-auto">
+      <div className=" flex justify-center mt-16 mx-auto">
         <button className="font-bold font-serif text-white bg-orange-500 px-4 text-sm py-2 rounded  ">
           Get The Template
         </button>
