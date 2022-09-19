@@ -11,7 +11,7 @@ function Features() {
       </h1>
       <div className="flex flex-col md:flex-row mt-12 gap-y-4">
         <div className="w-60 text-center justify-center mx-auto flex flex-col h-40">
-          <img src="./assets/calendar3D.png" className="w-32 mx-auto" alt="" />
+          <img src="./assets/calendars3D.png" className="w-32 mx-auto" alt="" />
           <p className="font-thin text-sm">
             Leverage technology to create space in your mind and calendar.
           </p>
