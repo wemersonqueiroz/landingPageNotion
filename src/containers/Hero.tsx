@@ -23,7 +23,7 @@ function Hero() {
         </p>
       </div>
       <img
-        src={hero}
+        src="./assets/hero.png"
         className="absolute top-0 -right-16 w-64 md:w-96 md:-top-12 md:h-full md:relative"
         alt="Hero"
       />
