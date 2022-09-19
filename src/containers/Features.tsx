@@ -1,7 +1,7 @@
 import React from "react"
-import calendar3D from "../assets/calendar3D.png"
-import clock3D from "../assets/clock3D.png"
-import passport3D from "../assets/passport3D.png"
+import calendar3D from "../../public/assets/calendar3D.png"
+import clock3D from "../../public/assets/clock3D.png"
+import passport3D from "../../public/assets/passport3D.png"
 
 function Features() {
   return (

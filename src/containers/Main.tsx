@@ -1,8 +1,8 @@
 import React from "react"
-import main from "../assets/main.png"
-import centerContainer from "../assets/centerContainer.png"
-import calendar from "../assets/calendar.png"
-import folder from "../assets/folder.png"
+import main from "../../public/assets/main.png"
+import centerContainer from "../../public/assets//centerContainer.png"
+import calendar from "../../public/assets//calendar.png"
+import folder from "../../public/assets//folder.png"
 
 function Main() {
   return (
