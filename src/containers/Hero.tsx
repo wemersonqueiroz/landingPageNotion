@@ -7,7 +7,7 @@ function Hero() {
         <h1 className="font-bold text-2xl lg:text-5xl md:text-4xl w-48 md:w-80 lg:w-full ml-8 mt-4">
           Get organized in your life and business
         </h1>
-        <p className="ml-8 mt-8 text-sm lg:text-xl lg:w-96 w-60 md:w-80">
+        <p className="ml-8 mt-8  font-thin text-sm lg:text-xl lg:w-96 w-60 md:w-80">
           This Notion Planner is your second brain to manage your whole life,
           personal, finances, habits, self-care, nutrition and your small
           business. All-in-one place.
@@ -23,7 +23,7 @@ function Hero() {
       </div>
       <img
         src="./assets/hero.png"
-        className="absolute top-0 right-0 w-64 md:w-96 md:-top-12 md:h-full md:relative drop-shadow-md"
+        className="absolute top-0 right-0 w-56  md:w-96 md:-top-12 md:h-full md:relative drop-shadow-md"
         alt="Hero"
       />
     </div>
